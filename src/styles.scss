@@ -1,0 +1,26 @@
+.bg-blue {
+  background-color: #67b0d1;
+}
+.navbar.bg-blue {
+  padding: 0 1rem;
+}
+.nav-item {
+  border-right: 1px solid #7bbbd7;
+  padding: 10px;
+}
+.nav-item:first-child {
+  border-left: 1px solid #7bbbd7;
+}
+.form-inline .form-control {
+  color: #67b0d1;
+  background-color: #4c9dc1;
+  border: 0;
+  border-radius: 0;
+}
+.form-inline input.form-control::placeholder { color: #67b0d1; font-size: 1em; font-style: italic; font-weight: bold;}
+.btn.btn-search {
+  color: #fff;
+  background-color: #4c9dc1;
+  border-color: #4c9dc1;
+  border-radius: 0;
+}
