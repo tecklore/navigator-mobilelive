@@ -17,10 +17,57 @@
   border: 0;
   border-radius: 0;
 }
-.form-inline input.form-control::placeholder { color: #67b0d1; font-size: 1em; font-style: italic; font-weight: bold;}
+
 .btn.btn-search {
   color: #fff;
   background-color: #4c9dc1;
   border-color: #4c9dc1;
   border-radius: 0;
 }
+
+.form-inline input.form-control::placeholder {
+  color: #67b0d1;
+  font-size: 1em;
+  font-style: italic;
+  font-weight: bold;
+}
+.form-inline input.form-control::-webkit-input-placeholder {
+  color: #67b0d1;
+  font-size: 1em;
+  font-style: italic;
+  font-weight: bold;
+}
+
+/* Firefox 4-18 */
+.form-inline input.form-control:-moz-placeholder {
+  color: #67b0d1;
+  font-size: 1em;
+  font-style: italic;
+  font-weight: bold;
+}
+
+/* Firefox 19-50 */
+.form-inline input.form-control::-moz-placeholder {
+  color: #67b0d1;
+  font-size: 1em;
+  font-style: italic;
+  font-weight: bold;
+}
+
+/* - Internet Explorer 10–11
+   - Internet Explorer Mobile 10-11 */
+.form-inline input.form-control:-ms-input-placeholder {
+  color: #67b0d1!important;
+  font-size: 1em;
+  font-style: italic;
+  font-weight: bold!important;
+}
+
+/* Edge (also supports ::-webkit-input-placeholder) */
+.form-inline input.form-control::-ms-input-placeholder {
+  color: #67b0d1;
+  font-size: 1em;
+  font-style: italic;
+  font-weight: bold;
+}
+
